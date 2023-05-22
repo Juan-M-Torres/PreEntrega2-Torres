@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "OpensSans";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+* {
+  font-family: "OpensSans";
+}
+body {
+  margin: 0px;
+  background-color: #e6e9f6;
+}
+.imagenFooter {
+  height: 20px;
+  width: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+  background-color: #9ca7d9;
+}
+footer div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* estilos pagina home*/
+main {
+  margin-top: 40px;
+}
+.imagenHomeMain {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.imagenHomeColum {
+  width: 450px;
+  height: 600px;
+  border-radius: 30px;
+  border: solid black 2px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+}
+nav ul li :hover {
+  background-color: #e6e9f6;
+  border-radius: 5px;
+}
+nav ul li a,
+main aside ul li a {
+  color: black;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+  background-color: #9ca7d9;
+}
+nav {
+  background-color: #b5bde3;
+}
+
+/* estilos pagina home*/
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+}
+nav ul li :hover {
+  background-color: #e6e9f6;
+  border-radius: 5px;
+}
+nav ul li a,
+main aside ul li a {
+  color: black;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+  background-color: #9ca7d9;
+}
+nav {
+  background-color: #b5bde3;
+}
+/* estilos para la ropa*/
+
+.h2-titulo-Texto {
+  text-align: center;
+}
+
+.box-lista {
+  list-style: none;
+  padding: 0px;
+}
+.catalogo-lista {
+  display: flex;
+  justify-content: space-around;
+}
+.imgcatalogo {
+  width: 200px;
+  height: 200px;
+}
+.productos-a-laventa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalogo-lista {
+  display: flex;
+}
+.volver-al-inicio {
+  display: none;
+}
+main section h3,
+main section div p {
+  align-items: center;
+  text-align: center;
+}
+.aside-categorias {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #ced3ec;
+  border-radius: 5px;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+}
+
+main section article {
+  background-color: #ced3ec;
+  border: black solid 1px;
+  margin-bottom: 20px;
+}
+main section div article {
+  margin-right: 20px;
+}
+#inicio {
+  text-decoration: underline;
+}
+/* estilos para la ropa*/
+
+/*estilos carro de compra*/
+.bloque-carrodeCompra {
+  display: flex;
+  justify-content: space-around;
+}
+.imagenMediosDePagoyEnvio {
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+}
+.cajaMediosDePagoyEnvio {
+  display: flex;
+  align-items: center;
+}
+.h3-MediosDePagoYenvio {
+  text-decoration: underline;
+}
+thead,
+table,
+th,
+td,
+tr {
+  font-size: 25px;
+  margin-bottom: 60px;
+  border: black solid 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead {
+  background-color: lightblue;
+}
+
+/*estilos carro de compra*/
+
+/*estilos contacto*/
+.bloque-contacto,
+.div-interiorFormulario,
+.div-interiorCabeceraFormulario {
+  display: flex;
+  justify-content: space-around;
+}
+.form {
+  text-align: center;
+  border: black solid 2px;
+  padding: 20px;
+}
+
+.formularios {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.nameLabelFormulario {
+  text-align: start;
+}
+.imagenIconoEmail {
+  height: 40px;
+  width: 40px;
+}
+.div-interiorCabeceraFormulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ajustar-parrafo {
+  width: 350px;
+}
+
+/*estilos contacto*/
