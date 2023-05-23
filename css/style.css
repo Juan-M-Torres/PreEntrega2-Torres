@@ -1,3 +1,4 @@
+/* Seteos generales de la pagina*/
 @font-face {
   font-family: "OpensSans";
   src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
@@ -10,6 +11,15 @@
 body {
   background-color: #e6e9f6;
 }
+.imagenFooter {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
+
+footer {
+  border-top: 1px black solid;
+}
 body nav {
   background-color: #b5bde3;
   margin-bottom: 10px;
@@ -20,6 +30,10 @@ body header p {
   margin-bottom: 0px;
   border: solid 1px black;
 }
+/* Seteos generales de la pagina*/
+
+/* estilos de la pagina principal*/
+
 .grid-container-main-index {
   display: grid;
   grid-template-columns: 1fr;
@@ -56,17 +70,56 @@ body header p {
   border-radius: 10px;
   box-shadow: 0 0 20px gray;
 }
-.imagenFooter {
-  height: 30px;
-  width: 30px;
-  margin: 20px;
+
+/* estilos de la pagina principal*/
+
+/*estilos pagina ropa de hombre*/
+
+.h2-titulo-Texto {
+  text-align: center;
+}
+body aside div ul li a {
+  color: black;
+}
+body aside div button {
+  margin-left: 5px;
+  border-radius: 5px;
+  text-decoration: underline 1px solid black;
+  background-color: #ced3ec;
 }
 
-footer {
-  border-top: 1px black solid;
+.navegador {
+  display: none;
+  list-style: none;
 }
+
+.navegador.show {
+  display: flex;
+  flex-direction: column;
+  background-color: #b5bde3;
+  border-radius: 15px;
+}
+body aside div h3 {
+  display: none;
+}
+body section div h3 {
+  text-align: center;
+}
+body section div article {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card,
+.card-body {
+  background-color: rgb(152, 166, 179);
+}
+.card-img-top {
+  margin-top: 10px;
+}
+/*estilos pagina ropa de hombre*/
 
 @media only screen and (min-width: 600px) {
+  /* estilos de la pagina principal*/
   .grid-container-main-index {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -96,5 +149,20 @@ footer {
   .item3 {
     display: flex;
     justify-content: center;
+  }
+  /* estilos de la pagina principal*/
+  .boton-filtro {
+    display: none;
+  }
+  .navegador {
+    justify-content: space-evenly;
+    margin-top: 0px;
+    background-color: gray;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+  }
+  body aside div h3 {
+    display: flex;
   }
 }

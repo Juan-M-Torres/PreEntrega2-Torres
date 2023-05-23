@@ -12,13 +12,14 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/filtrojs.js"></script>
 </head>
 
 <body>
     <header>
-        <h6> Ahora 6 y 12 cuotas sin interes en compras mayores a $20.000</h6>
+        <p> Ahora 6 y 12 cuotas sin interes en compras mayores a $20.000</p>
     </header>
-    <nav class="navbar navbar-expand-lg bg-transparent">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <h1>DON QUIQUE</h1>
@@ -42,232 +43,67 @@
     <!--section en la cual se encuentra la ropa que ofrece la pagina con su precio y descripcion y tambien un bloque de categorias de ropa-->
     <h2 class="h2-titulo-Texto">ROPA HOMBRE</h2>
     <aside>
+        <div>
+            <h3>Filtros ropa</h3>
+            <button class="boton-filtro" id="boton-filtro">Filtros Ropa</button>
+        </div>
+        <div>
+            <ul class="navegador">
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#pantalones">Pantalones</a></li>
+                <li><a href="#remeras">Remeras</a></li>
+                <li><a href="#short">Shorts</a></li>
 
-        <li>
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Categorias
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#accesorios">Accesorios</a></li>
-                <li><a class="dropdown-item" href="#pantalones">Pantalones</a></li>
-                <li><a class="dropdown-item" href="#remeras">Remeras</a></li>
-                <li><a class="dropdown-item" href="#short">Shorts</a></li>
             </ul>
-        </li>
-
+        </div>
     </aside>
 
-    <!--<section class="">
-
-            <div class="">
-                <h3 id="accesorios ">Accesorios</h3>
-
-                <article class="">
-                    <img class="imgcatalogo" src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas">
-                    <p>BOLSO ADIDAS</p>
-                    <p>$4000</p>
-                </article>
-
-
-
-                <article class="">
-                    <img class="imgcatalogo" src="../img/bolsopuma.jpg" alt="Bolso Puma">
-                    <p>BOLSO PUMA</p>
-                    <p>$3500</p>
-                </article>
-
-
-
-                <article class="">
-                    <img class="imgcatalogo" src="../img/bolsoumbro.jpg" alt="Bolso Umbro">
-                    <p>BOLSO UMBRO</p>
-                    <p>$3400</p>
-                </article>
-
-
-
-                <article class="">
-                    <img class="imgcatalogo" src="../img/mochilajansport.jpg" alt="Mochila Jansport">
-                    <p>MOCHILA JANSPORT</p>
-                    <p>$4000</p>
-                </article>
-
-
-
-                <article class="">
-                    <img class="imgcatalogo" src="../img/mochilatopper.jpg" alt="Mochila Topper">
-                    <p>MOCHILA TOPPER</p>
-                    <p>$3900</p>
-                </article>
-            </div>
-            <h3 id="pantalones" class="row">Pantalones</h3>
-            <div class="pantalones-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalonfilagris.jpg" alt="Pantalon Fila gris">
-                    <p>PANTALON FILA</p>
-                    <p>$2500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalonfilanegro.jpg" alt="Pantalon Fila negro">
-                    <p>PANTALON FILA</p>
-                    <p>$2500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalonflash.jpg" alt="Pantalon Flash rugby">
-                    <p>PANTALON FLASH</p>
-                    <p>$2700</p>
-                </article>
-
-
-            </div>
-
-
-            <h3 id="remeras" class="row">Remeras</h3>
-
-            <div class="remeras-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/musculosaboca.jpg" alt="Musculosa Boca Juniors">
-                    <p>MUSCULOSA BOCA</p>
-                    <p>$3000</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/musculosariver.jpg" alt="Musculosa River Plate">
-                    <p>MUSCULOSA RIVER</p>
-                    <p>$3100</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remeraadidasazul.jpg" alt="Remera Adidas azul">
-                    <p>REMERA ADIDAS</p>
-                    <p>$3400</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remeraadidasblanca.jpg" alt="Remera Adidas blanca">
-                    <p>REMERA ADIDAS</p>
-                    <p>$3400</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remerafilablanca.jpg" alt="Remera Fila blanca">
-                    <p>REMERA FILA</p>
-                    <p>$2999</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remerapumafluo.jpg" alt="Remera Puma fluo">
-                    <p>REMERA PUMA</p>
-                    <p>$2500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remerareebokblanca.jpg" alt="Remera Reebok blanca">
-                    <p>REMERA REEBOK</p>
-                    <p>$3100</p>
-                </article>
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remerareeboknegra.jpg" alt="Remera Reebok negra">
-                    <p>REMERA REEBOK</p>
-                    <p>$3100</p>
-                </article>
-
-            </div>
-
-
-
-            <h3 id="shorts" class="row">Shorts</h3>
-
-            <div class="shorts-a-laventa">
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortadidasboca.jpg" alt="Short Boca Juniors Adidas">
-                    <p>SHORT BOCA</p>
-                    <p>$1000</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortadidasriver.jpg" alt="Short River Plate Adidas">
-                    <p>SHORT RIVER</p>
-                    <p>$1100</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortadidas.jpg" alt="Short Adidas negro">
-                    <p>SHORT ADIDAS</p>
-                    <p>$1500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortnike.jpg" alt="Short Nike gris">
-                    <p>SHORT NIKE</p>
-                    <p>$1500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortnikepumas.jpg" alt="Short Nike Los Pumas">
-                    <p>SHORT LOS PUMAS</p>
-                    <p>$1100</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortpuma.jpg" alt="Short Puma azul">
-                    <p>SHORT PUMA</p>
-                    <p>$1600</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shortrebook.jpg" alt="Short Reebok gris">
-                    <p>SHORT REEBOK</p>
-                    <p>$1500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/shorttopper.jpg" alt="Short Topper gris">
-                    <p>SHORT TOPPER</p>
-                    <p>$1600</p>
-                </article>
-            </div>
-
-            <div class="volver-al-inicio">
-                <h3><a class="hipervinculo-ropa" href="#inicio">Volver al inicio</a></h3>
-            </div>
-            </div>
-        </section>
+    <section class="container">
+        <div class="row d-flex justify-content-center">
+            <h3 id="accesorios" class=" col-xs-12 col-lg-12"> Accesorios</h3>
+
+            <article class="card col-xs-12" style="width: 18rem;">
+                <img src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Bolso Adidas</p>
+                </div>
+            </article>
+
+            <article class="card col-xs-12" style="width: 18rem;">
+                <img src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Bolso Adidas</p>
+                </div>
+            </article>
+
+            <article class="card col-xs-12" style="width: 18rem;">
+                <img src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Bolso Adidas</p>
+                </div>
+            </article>
+
+            <article class="card col-xs-12" style="width: 18rem;">
+                <img src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Bolso Adidas</p>
+                </div>
+            </article>
+
+            <article class="card col-xs-12" style="width: 18rem;">
+                <img src="../img/organizadoradidas.jpg" alt="Bolso organizador Adidas" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text">Bolso Adidas</p>
+                </div>
+            </article>
+        </div>
+
+
+        <div class="volver-al-inicio">
+            <h3><a class="hipervinculo-ropa" href="#inicio">Volver al inicio</a></h3>
+        </div>
+        </div>
+    </section>
     </main>
     <!--section en la cual se encuentra la ropa que ofrece la pagina con su precio y descripcion y tambien un bloque de categorias de ropa-->
 
