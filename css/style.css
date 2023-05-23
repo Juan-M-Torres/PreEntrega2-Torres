@@ -116,6 +116,10 @@ body section div article {
 .card-img-top {
   margin-top: 10px;
 }
+.imgFlechaTop {
+  height: 20px;
+  width: 20px;
+}
 /*estilos pagina ropa de hombre*/
 
 @media only screen and (min-width: 600px) {
