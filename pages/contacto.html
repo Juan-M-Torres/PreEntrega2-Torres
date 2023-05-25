@@ -41,78 +41,70 @@
     <!--Nombre de la pagina y lista de navegacion-->
 
     <!--section en la cual se encuentra primero para contactarse via whatsapp y luego por mail. En el ultimo bloque las politicas de privacidad-->
-    <section class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-12">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                            <fieldset>
-                                <legend class="text-center header">Contact us</legend>
+    <section class="container-contacto-grid">
+        <div class="cajaContactoTelefono">
+            <h3>VIA WHATSAPP</h3>
+            <div>
+                <div class="imgYtelefono">
+                    <img class="logoWhatsapp" src="../img/whatsapp-logo.png" alt="logo whatsapp">
+                    <p>+54 9228 1348680</p>
+                </div>
+                <p>Lunes a viernes de 8:30 a 18.30 - Sábados de 9.00 a 17.30</p>
+            </div>
+        </div>
 
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i
-                                            class="fa fa-user bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="fname" name="name" type="text" placeholder="First Name"
-                                            class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i
-                                            class="fa fa-user bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="lname" name="name" type="text" placeholder="Last Name"
-                                            class="form-control">
-                                    </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i
-                                            class="fa fa-envelope-o bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="email" name="email" type="text" placeholder="Email Address"
-                                            class="form-control">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i
-                                            class="fa fa-phone-square bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <input id="phone" name="phone" type="text" placeholder="Phone"
-                                            class="form-control">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"><i
-                                            class="fa fa-pencil-square-o bigicon"></i></span>
-                                    <div class="col-md-8">
-                                        <textarea class="form-control" id="message" name="message"
-                                            placeholder="Enter your massage for us here. We will get back to you within 2 business days."
-                                            rows="7"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
+        <div class="container cajaContactoForm">
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h3>CONTACTENOS!</h3>
                 </div>
             </div>
+
+            <form class="row g-3 mt-2 mb-3 formularioContacto">
+                <div class="col-6">
+                    <label for="nameInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-6">
+                    <label for="apellidoInput" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellidoInput" placeholder="Ingrese su apellido">
+                </div>
+                <div class="col-6">
+                    <label for="mailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mailInput" placeholder="Ingrese su email">
+                </div>
+                <div class="col-6">
+                    <label for="LocalidadInput" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="localidadInput" placeholder="Ingrese su localidad">
+                </div>
+                <div class="col-6">
+                    <label for="telefonoInput" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" id="telefonoInput" placeholder="Ingerse su telefono">
+                </div>
+                <div class="col-6">
+                    <label for="asuntoInput" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="asuntoInput" placeholder="Ingrese su asunto">
+                </div>
+                <div class="col-12">
+                    <label for="nameInput" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" id="comentarioInput" placeholder="Ingrese su Comentario"
+                        rows="20" cols="40">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+
+            </form>
+
         </div>
-        <div class="row>
-            <div class=" col-xs-12 col-lg-6">
+
+        <div class="cajaContactoPrivacidad">
             <div>
-                <h2>POLITICAS DE PRIVACIDAD</h2>
+                <h3>POLITICAS DE PRIVACIDAD</h3>
             </div>
             <div>
-                <p class="ajustar-parrafo">LA INFORMACIÓN SUMINISTRADA POR EL
+                <p>LA INFORMACIÓN SUMINISTRADA POR EL
                     USUARIO EN EL SITIO CONFORMARÁ UNA
                     BASE DE DATOS (EN ADELANTE, "BASE DE
                     DATOS") QUE SERÁ UTILIZADA
@@ -120,7 +112,7 @@
                     DESCRIPTA, DE ACUERDO A LOS
                     LINEAMIENTOS DE LA LEY 25.326.
                 </p>
-                <p class="ajustar-parrafo">LA INFORMACIÓN SUMINISTRADA POR EL
+                <p>LA INFORMACIÓN SUMINISTRADA POR EL
                     USUARIO EN EL SITIO CONFORMARÁ UNA
                     BASE DE DATOS (EN ADELANTE, "BASE DE
                     DATOS") QUE SERÁ UTILIZADA
@@ -128,7 +120,7 @@
                     DESCRIPTA, DE ACUERDO A LOS
                     LINEAMIENTOS DE LA LEY 25.326.
                 </p>
-                <p class="ajustar-parrafo">LA INFORMACIÓN SUMINISTRADA POR EL
+                <p>LA INFORMACIÓN SUMINISTRADA POR EL
                     USUARIO EN EL SITIO CONFORMARÁ UNA
                     BASE DE DATOS (EN ADELANTE, "BASE DE
                     DATOS") QUE SERÁ UTILIZADA
@@ -139,7 +131,6 @@
             </div>
         </div>
 
-        </div>
     </section>
     <!--section en la cual se encuentra primero para contactarse via whatsapp y luego por mail. En el ultimo bloque las politicas de privacidad-->
 
