@@ -12,12 +12,12 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/filtrojs.js"></script>
 </head>
 
 <body>
-    <!--Nombre de la pagina y lista de navegacion-->
     <header>
-        <p> Ahora 6 y 12 cuotas sin interes en compras mayores a $20.000</h6>
+        <p> Ahora 6 y 12 cuotas sin interes en compras mayores a $20.000</p>
     </header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -28,7 +28,7 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="ropaDeHombre.html">Ropa de Hombre</a>
                     <a class=" nav-link active" href="ropaDeMujer.html">Ropa de Mujer</a>
@@ -41,195 +41,186 @@
     <!--Nombre de la pagina y lista de navegacion-->
 
     <!--section en la cual se encuentra la ropa que ofrece la pagina con su precio y descripcion y tambien un bloque de categorias de ropa-->
-    <h2 class="h2-titulo-Texto">ROPA MUJER</h2>
-    <main class="catalogo-lista">
-        <aside>
-            <div class="aside-categorias">
-                <h2 id="inicio">Categorias</h2>
-                <ul class="box-lista">
+    <h2 class="h2-titulo-Texto">ROPA HOMBRE</h2>
+
+    <main class="container-ropaHombre-grid">
+        <aside class="asideHombre">
+            <div>
+                <h3>FILTROS ROPA</h3>
+                <button class="boton-filtro" id="boton-filtro">Filtros Ropa</button>
+            </div>
+            <div class="div-navegadorRopa">
+                <ul class="navegador">
                     <li><a href="#accesorios">Accesorios</a></li>
                     <li><a href="#pantalones">Pantalones</a></li>
                     <li><a href="#remeras">Remeras</a></li>
                     <li><a href="#short">Shorts</a></li>
+
                 </ul>
             </div>
-
         </aside>
-        <section class="grid-container">
-            <h3 id="accesorios">ACCESORIOS</h3>
-            <div class="productos-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/bolso-atix.jpg" alt="Bolso Atix">
-                    <p>BOLSO ATIX</p>
-                    <p>$4000</p>
-                </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/bolso-head.jpg" alt="Bolso Head">
-                    <p>BOLSO HEAD</p>
-                    <p>$3500</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/morral-everlast.jpg" alt="Morral Everlast">
-                    <p>MORRAL EVERLAST</p>
-                    <p>$3400</p>
-                </article>
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/morral-everlast.jpg" alt="Morral Everlast">
-                    <p>MORRAL EVERLAST</p>
-                    <p>$3400</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/mochila-kappa.jpg" alt="Mochila Kappa">
-                    <p>MOCHILA KAPPA</p>
-                    <p>$4000</p>
-                </article>
-
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/mochila-herscheljpg.jpg" alt="Mochila Hescell">
-                    <p>MOCHILA HESCHELL</p>
-                    <p>$3900</p>
-                </article>
+        <div class="stickytop">
+            <div>
+                <a href="#boton-filtro"><img src="../img/flechaTop.png" alt="Flecha para subir al superior"
+                        class="imgFlechaTop"></a>
             </div>
+        </div>
+        <section class="container sectionHombre">
+            <div class="row d-flex justify-content-center gap-2">
 
-            <h3 id="pantalones">PANTALONES</h3>
-            <div class="productos-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalon-lacoste-bordo-40002h761523z7f-1.jpg"
-                        alt="Pantalon Lacoste">
-                    <p>PANTALON LACOSTE</p>
-                    <p>$2500</p>
+                <h3 id="accesorios" class=" col-xs-12 col-lg-12"> ACCESORIOS</h3>
+
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/bolso-atix.jpg" alt="Bolso ATIX" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Bolso Atix</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalon-mujer-adidas.jpg" alt="Pantalon Adidas mujer">
-                    <p>PANTALON ADIDAS</p>
-                    <p>$2500</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/bolso-head.jpg" alt="Bolso head" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Bolso Head</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/pantalon-women.jpg" alt="Pantalon mujer">
-                    <p>PANTALON MULTIMARCA</p>
-                    <p>$2700</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/morral-everlast.jpg" alt="Morral Everlast" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Morral Everlast</p>
+                    </div>
                 </article>
 
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/mochila-kappa.jpg" alt="Mochila Kappa" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Mochila Kappat</p>
+                    </div>
+                </article>
+
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/mochila-herscheljpg.jpg" alt="Mochila Hescell" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Mochila Heschell</p>
+                    </div>
+                </article>
 
             </div>
 
+            <div class="row d-flex justify-content-center gap-2">
 
+                <h3 id="pantalones" class=" col-xs-12 col-lg-12"> Pantalones</h3>
 
-
-            <h3 id="remeras">REMERAS</h3>
-            <div class="productos-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/remera-puma-mujer.jpg" alt="Remera Puma mujer">
-                    <p>REMERA PUMA MUJER</p>
-                    <p>$3000</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/pantalon-lacoste-bordo-40002h761523z7f-1.jpg" alt="Pantalon Lacoste"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Pantalon Lacoste Rojo</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remera-puma-negra-mujer-2.jpg" alt="Remera Puma mujer negra">
-                    <p>REMERA PUMA NEGRA</p>
-                    <p>$3100</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/pantalon-mujer-adidas.jpg" alt="Pantalon Adidas mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Pantalon Adidas</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remera-rebook-mujer.jpg" alt="Remera Reebok mujer">
-                    <p>REMERA REEBOK</p>
-                    <p>$3400</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/pantalon-women.jpg" alt="Pantalon mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Pantalon Sin Marca</p>
+                    </div>
                 </article>
 
+            </div>
 
+            <div class="row d-flex justify-content-center gap-2">
 
-                <article>
-                    <img class="imgcatalogo" src="../img/remera-termica-mujer.jpg" alt="Remera termica mujer">
-                    <p>REMERA TERMICA</p>
-                    <p>$3400</p>
+                <h3 id="remeras" class=" col-xs-12 col-lg-12"> Remeras</h3>
+
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/remera-puma-mujer.jpg" alt="Remera Puma mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Remera Puma</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/remerafilablanca.jpg" alt="Remera Fila blanca">
-                    <p>REMERA FILA</p>
-                    <p>$2999</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/remera-puma-negra-mujer-2.jpg" alt="Remera Puma mujer negra" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Remera Puma Negra</p>
+                    </div>
                 </article>
 
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/remera-rebook-mujer.jpg" alt="Remera Reebok mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Remera Reebok</p>
+                    </div>
+                </article>
 
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/remera-termica-mujer.jpg" alt="Remera termica mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Remera Termica</p>
+                    </div>
+                </article>
 
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/remerafilablanca.jpg" alt="Remera Fila blanca" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Remera Fila Blanca</p>
+                    </div>
+                </article>
 
 
 
             </div>
 
+            <div class="row d-flex justify-content-center gap-2">
 
+                <h3 id="short" class=" col-xs-12 col-lg-12"> Shorts</h3>
 
-            <h3 id="shorts">SHORTS</h3>
-            <div class="productos-a-laventa">
-                <article>
-                    <img class="imgcatalogo" src="../img/short-futbol-mujer.jpg" alt="Short Futbol mujer">
-                    <p>SHORT FUTBOL</p>
-                    <p>$1000</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/short-futbol-mujer.jpg" alt="Short Futbol mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Short Futbol</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/short-nike-mujer.jpg" alt="Short Nike mujer">
-                    <p>SHORT NIKE</p>
-                    <p>$1100</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/short-nike-mujer.jpg" alt="Short Nike mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Short Nike</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/short-running-mujer.jpg" alt="Short Running mujer">
-                    <p>SHORT RUNNING</p>
-                    <p>$1500</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/short-running-mujer.jpg" alt="Short Running mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Short Running</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/short-under-armor.jpg" alt="Short under armor">
-                    <p>SHORT UNDER ARMOR</p>
-                    <p>$1500</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/short-under-armor.jpg" alt="Short under armor" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Short Under Armor</p>
+                    </div>
                 </article>
 
-
-
-                <article>
-                    <img class="imgcatalogo" src="../img/calza-entrenamiento-mujer.jpg" alt="Calza mujer">
-                    <p>CALZA MUJER</p>
-                    <p>$1100</p>
+                <article class="card col-xs-12" style="width: 18rem;">
+                    <img src="../img/calza-entrenamiento-mujer.jpg" alt="Calza mujer" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Calza Mujer</p>
+                    </div>
                 </article>
 
             </div>
 
 
-
-            <div class="volver-al-inicio">
-                <h3><a class="hipervinculo-ropa" href="#inicio">Volver al inicio</a></h3>
             </div>
         </section>
     </main>

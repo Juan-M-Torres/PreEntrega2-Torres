@@ -117,8 +117,14 @@ body section div article {
   margin-top: 10px;
 }
 .imgFlechaTop {
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
+}
+.stickytop {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 1;
 }
 /*estilos pagina ropa de hombre*/
 
@@ -158,15 +164,51 @@ body section div article {
   .boton-filtro {
     display: none;
   }
+  main aside div h3 {
+    align-items: center;
+    justify-content: center;
+  }
+  main aside div ul li {
+    padding: 20px;
+    text-align: center;
+  }
   .navegador {
-    justify-content: space-evenly;
-    margin-top: 0px;
-    background-color: gray;
     display: flex;
+    flex-direction: column;
     list-style: none;
-    padding: 0px;
+  }
+  .div-navegadorRopa {
+    position: sticky;
+    top: 20px;
   }
   body aside div h3 {
     display: flex;
+    border-bottom: 1px black solid;
+  }
+  .stickytop {
+    display: none;
+  }
+  .container-ropaHombre-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "asideHombre sectionHombre sectionHombre sectionHombre"
+      "asideHombre sectionHombre sectionHombre sectionHombre";
+  }
+  .sectionHombre {
+    grid-area: sectionHombre;
+  }
+  .asideHombre {
+    grid-area: asideHombre;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+  }
+  #accesorios,
+  #pantalones,
+  #remeras,
+  #short {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
   }
 }
