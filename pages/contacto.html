@@ -41,66 +41,73 @@
     <!--Nombre de la pagina y lista de navegacion-->
 
     <!--section en la cual se encuentra primero para contactarse via whatsapp y luego por mail. En el ultimo bloque las politicas de privacidad-->
-    <section class="bloque-contacto">
-        <div>
-            <div>
-                <div class="cajaMediosDePagoyEnvio">
-                    <img class="imagenMediosDePagoyEnvio" src="../img/whatsapp-logo.png" alt="Logo whatsapp">
-                    <p>VIA WHATSAPP</p>
-                </div>
-                <p>+54 9228 1348680</p>
-                <p>Lunes a viernes de 8:30 a 18.30 - Sábados de 9.00 a 17.30</p>
-            </div>
-            <article>
-                <div class="form">
-                    <div class="div-interiorCabeceraFormulario">
-                        <img class="imagenIconoEmail" src="../img/mail.png" alt="Logo Mail">
-                        <h2>CONTACTENOS!</h2>
-                    </div>
+    <section class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Contact us</legend>
 
-                    <div>
-                        <div class="div-interiorFormulario">
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Nombre *</label>
-                                <input type="text" name="Nombre" placeholder="Ingrese Nombre">
-                            </form>
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Apellido *</label>
-                                <input type="text" name="Apellido" placeholder="Ingrese Apellido">
-                            </form>
-                        </div>
-                        <div class="div-interiorFormulario">
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Correo Electronico *</label>
-                                <input type="email" name="Correo Electronico" placeholder="Ingrese correo electronico">
-                            </form>
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Localidad</label>
-                                <input type="text" name="Localidad" placeholder="Ingrese Localidad">
-                            </form>
-                        </div>
-                        <div class="div-interiorFormulario">
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Numero Telefonico *</label>
-                                <input type="tel" name="Numero Telefonico" placeholder="Ingrese numero de telefono">
-                            </form>
-                            <form class="formularios">
-                                <label class="nameLabelFormulario">Asunto *</label>
-                                <input type="text" name="Asunto" placeholder="Ingrese numero asunto">
-                            </form>
-                        </div>
-                        <form class="formularios">
-                            <label>Comentario *</label>
-                            <textarea name="Consulta" cols="50" rows="10" placeholder="Ingrese consulta"></textarea>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="First Name"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Last Name"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="Email Address"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Phone"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i
+                                            class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Enter your massage for us here. We will get back to you within 2 business days."
+                                            rows="7"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
                         </form>
-                        <input type="button" value="Enviar" id="Enviar">
                     </div>
                 </div>
-            </article>
-
+            </div>
         </div>
-
-        <div>
+        <div class="row>
+            <div class=" col-xs-12 col-lg-6">
             <div>
                 <h2>POLITICAS DE PRIVACIDAD</h2>
             </div>
@@ -130,6 +137,8 @@
                     LINEAMIENTOS DE LA LEY 25.326.
                 </p>
             </div>
+        </div>
+
         </div>
     </section>
     <!--section en la cual se encuentra primero para contactarse via whatsapp y luego por mail. En el ultimo bloque las politicas de privacidad-->
