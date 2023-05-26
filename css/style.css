@@ -73,7 +73,7 @@ body header p {
 
 /* estilos de la pagina principal*/
 
-/*estilos pagina ropa de hombre*/
+/*estilos pagina ropa de hombre y mujer*/
 
 .h2-titulo-Texto {
   text-align: center;
@@ -98,6 +98,8 @@ body aside div button {
   flex-direction: column;
   background-color: #b5bde3;
   border-radius: 15px;
+  margin-right: 270px;
+  margin-left: 15px;
 }
 body aside div h3 {
   display: none;
@@ -127,7 +129,7 @@ body section div article {
   z-index: 1;
 }
 
-/*estilos pagina ropa de hombre*/
+/*estilos pagina ropa de hombre y mujer*/
 
 /*  Estilos para carro de compras*/
 .cajaMediosDePagoyEnvio {
