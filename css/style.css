@@ -116,8 +116,7 @@ body section div article {
 .card-img-top {
   margin-top: 10px;
 }
-.imgFlechaTop,
-.imagenMediosDePagoyEnvio {
+.imgFlechaTop {
   height: 40px;
   width: 40px;
 }
@@ -131,7 +130,14 @@ body section div article {
 /*estilos pagina ropa de hombre*/
 
 /*  Estilos para carro de compras*/
-
+.cajaMediosDePagoyEnvio {
+  display: flex;
+}
+.imagenMediosDePagoyEnvio {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
 /*  Estilos para carro de compras*/
 
 /*Contacto*/
